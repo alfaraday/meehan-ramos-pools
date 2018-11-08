@@ -58,7 +58,7 @@ h1 {
 }
 
 nav {
-    background-color: #332211;
+    background-color: rgba(51, 34, 17, 0.95);
     margin: 0;
     padding: 5px;
 }
@@ -70,7 +70,7 @@ nav {
 }
 
 section {
-    background-color: #ddeeff;
+    background-color: rgba(221, 238, 255, 0.95);
     color: #001122;
     padding: 50px;
     margin-bottom: 50px;
@@ -104,7 +104,8 @@ address {
 }
 
 .gallery-image {
-    padding-top: 50px;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .gallery {
