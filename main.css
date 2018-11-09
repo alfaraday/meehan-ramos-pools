@@ -29,6 +29,7 @@ main {
 h1, h2, h3 {
     font-family: 'Tangerine', cursive;
     text-rendering: optimizeLegibility;
+    font-weight: 400;
 }
 
 .nav-list {
