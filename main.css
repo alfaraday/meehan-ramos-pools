@@ -7,11 +7,15 @@ body {
     font-size: 45px;
     margin: 0;
     background-image: url('./images/background.jpg');
-    padding-top: 410px;
+    padding-top: 395px;
 }
 
 main {
     padding: 60px;
+}
+
+.landing > img {
+    width: 100%;
 }
 
 .sticky {
