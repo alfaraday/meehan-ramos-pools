@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    font-size: 6vw;
+    background-color: black;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Tangerine', cursive;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+    text-align: center;
+}
+
+header {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-photo {
+    width: 90%;
+    height: 40%;
+    background-image: url(./images/landing1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 20px #000000;
+}
+
+h1 {
+    font-size: 15vw;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.nav-list, .footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: rgb(71, 217, 233);
+}
+
+main {
+    box-shadow: inset 0 0 20px #47d9e9;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px #47d9e9;
+}
