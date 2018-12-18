@@ -27,8 +27,8 @@ header {
 }
 
 .landing-photo {
-    width: 90%;
-    height: 40%;
+    width: 90vw;
+    height: 40vh;
     background-image: url(./images/landing1.jpg);
     background-size: contain;
     background-repeat: no-repeat;

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+    font-size: 7vw;
+    background-color: black;
+    color: white;
+}
+
+.blue-text, .fa-bars {
+    color: #47d9e9;
+}
+
+.tangerine {
+    font-family: 'Tangerine', cursive;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
+}
+
+main {
+    /*box-shadow: inset 0 0 20px #47d9e9;*/
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    height: 95vh;
+    /*box-shadow: 0 0 20px #47d9e9;*/
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/*Nav bar*/
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+}
+
+/*Landing page*/
+
+h1 {
+    text-align: center;
+    font-size: 15vw;
+}
+
+header {
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-photo {
+    width: 90vw;
+    height: 40vh;
+    background-image: url(./images/landing1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: inset 0 0 20px #000000;
+}
+
+/*About section*/
+
+.years {
+    font-size: 20vw;
+    line-height: 50%;
+}
+
+.about-bottom {
+    text-align: right;
+}
+
+section.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*box-shadow: inset 0 0 30px #47d9e9;*/
+}
+
+/*Services section*/
+
+section.services {
+    background-image: url(./images/pool7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.services > div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.services-item {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1vh;
+    text-align: center;
+}
