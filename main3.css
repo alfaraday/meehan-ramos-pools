@@ -115,3 +115,61 @@ section.services > div {
     padding: 1vh;
     text-align: center;
 }
+
+/*Contact section*/
+
+section.contact {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.contact-top {
+    border-color: #47d9e9;
+    border-style: solid;
+    border-width: 10px 0 0 10px;
+}
+
+.contact-top > p {
+    padding-left: 7vw;
+    padding-right: 10px;
+}
+
+.contact-top > img {
+    padding-left: 10vw;
+    padding-right: 10px;
+}
+
+address {
+    text-align: right;
+    border-color: #47d9e9;
+    border-style: solid;
+    border-width: 0 10px 10px 0;
+    padding-right: 7vw;
+    padding-bottom: 7vw;
+}
+
+address > a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Gallery*/
+
+section.gallery {
+    height: 100%;
+}
+
+.gallery-image {
+    margin-bottom: 50px;
+}
+
+/*Footer*/
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    font-size: 4vw;
+
+}
